@@ -1,0 +1,89 @@
+body{
+    font-family: "myfont";
+}
+
+
+.header{
+float: left;
+color: blue;
+padding: 20px;
+padding-left: 40px;
+
+}
+h3{
+float:right;
+color:#3acec2 ;
+padding-top: 20px;
+padding-bottom: 20px;
+padding-right: 40px;
+box-sizing: content-box;
+
+}
+.clearfix::after {
+    content: "";
+    clear: both;
+    display: table;
+  }
+  .section1{
+    background-color: #3acec2;
+    height: 300px;
+    clear: both;
+    margin-bottom: 20px;
+   
+}
+.tasvir{
+    padding-top: 40px;
+    padding-bottom: 20px;
+    text-align: center;
+
+}
+.matn{
+    text-align: center;
+    color: white;
+    font-size: 30px;
+    padding-bottom: 10px;
+
+}
+h1{
+    color: blue;
+    font-size: 25px;
+    padding-bottom: 10px;
+
+}
+h2{
+    text-align: center;
+    color: white;
+    font-size: large;
+}
+.part{
+    padding-left: 20px;
+    width: calc(100%/3);
+    float: left;
+    box-sizing: border-box; 
+    height: 100%;
+}
+p{
+    padding-bottom: 10px;
+}
+@font-face {
+    font-family: "myfont";
+    src: url(https://fonts.google.com/specimen/Varela+Round);
+}
+@media screen and (max-width:468px) {
+    .part{
+        width: 100%;
+    }
+    h3{
+        clear: left;
+        /* float: left; */
+    }
+    .header{
+        float: none;
+    }
+    
+}
+.clearfix::after {
+    content: "";
+    clear: both;
+    display: table;
+  }
